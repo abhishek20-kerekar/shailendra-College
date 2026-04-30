@@ -12,7 +12,7 @@ export default function Insert(){
 
         e.preventDefault();
         
-        fetch("http://localhost:4983/insert" ,{
+        fetch("https://your-backend.onrender.com/insert" ,{
             method:"POST",
             headers:{
                 "Content-Type":"application/json"
