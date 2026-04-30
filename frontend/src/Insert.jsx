@@ -47,7 +47,7 @@ export default function Insert(){
             <div>
                 <form>
                     Enter Rollno: <input type="number" value={rollno} onChange={(e)=>setRollno(Number(e.target.value))}/><br />
-                    Enter Name: <input type="text" value={name} onChange={(e)=>setName(e.target.value)}/><br />
+                    Enter Name: <input type="text" value={name} onChange={(e)=>setName(e.target.value)} className="form-control"/><br />
                     Enter City: <input type="text" value={city} onChange={(e)=>setCity(e.target.value)}/><br />
                     Enter Age: <input type="number" value={age} onChange={(e)=>setAge(Number(e.target.value))}/><br />
                     <button className="btn btn-primary" type="submit" onClick={(e)=>AddStudent(e)}>Add</button>
